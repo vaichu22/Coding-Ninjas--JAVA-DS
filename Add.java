@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Add
 {
 	
-	public int addNumber(int a,int b)
+	public int addNumbers(int a,int b)
 	{
 		return a+b;
 	}
@@ -22,7 +22,7 @@ public class Add
 			int a1=s.nextInt();
 			System.out.println("Enter b: ");
 			int b1=s.nextInt();
-			System.out.println("The sum is"+a.addNumber(a1, b1));
+			System.out.println("The sum is"+a.addNumbers(a1, b1));
 		}
 	}
 }
